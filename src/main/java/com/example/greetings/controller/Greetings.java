@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Greetings {
     @GetMapping("/")
     public String welcome() {
-        return "Welcome user";
+        return "Welcome user Thank you";
     }
 }
